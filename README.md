@@ -49,9 +49,4 @@ docker run -p 8080:8080 go-uptime https://go.dev https://github.com
 go test -race ./...
 ```
 
-## Идеи для развития
-
-- История проверок и аптайм в процентах (SQLite)
-- Уведомления в Telegram при падении сайта
-- Конфиг из YAML, экспорт метрик Prometheus
 - Retry с экспоненциальной паузой
